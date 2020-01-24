@@ -4,9 +4,9 @@ const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');
 const { IamAuthenticator } = require('ibm-watson/auth');
 const T = new Twit(config)
 const personalityInsights = new PersonalityInsightsV3({
-  authenticator: new IamAuthenticator({ apikey: 'wT_Y2y3fjSTgkQtMsf6C1REEEgmfiVlqggEzfSyZridJ' }),
-  version: '2016-10-19',
-  url: 'https://gateway-wdc.watsonplatform.net/personality-insights/api'
+  authenticator: new IamAuthenticator({ apikey: 'ENTER IBM API KEY' }),
+  version: 'ENTER VERSION',
+  url: 'ENTER URL'
 });
            
 function getUserTimeLine(twitterhandle, cb) {
